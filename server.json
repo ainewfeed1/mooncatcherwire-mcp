@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.mooncatcherwire/wire",
+  "title": "Mooncatcher Wire",
+  "description": "Free crypto news for agents: top stories by market impact, search, topics, AI digest.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.mooncatcherwire.com/agents/",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://mooncatcherwire.com/mcp" }
+  ]
+}
